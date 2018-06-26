@@ -8,6 +8,6 @@ http://www.kacl780.net/frasier/transcripts/ and pertinent information are writte
 1. Create a virtual environment `virtualenv venv`
 1. Install requirements `pip install -r requirements.txt`
 1. Install a webdriver binary `brew install chromedriver` or `http://selenium-python.readthedocs.io/installation.html#drivers`
-1. Run the package `python3 -m scrape_transcipts --verbose`
+1. Run the package `python3 -m frasier_transcripts --verbose`
 
 The scraped data will be available in `fraiser.db` SQLite database.
